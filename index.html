@@ -900,6 +900,21 @@ a:hover::after{
     transform: translateY(0);
     opacity: 1;
 }
+
+/* Scrollbar */
+body::-webkit-scrollbar {
+    width: 10px;
+  }
+   
+  body::-webkit-scrollbar-track {
+    box-shadow: inset 100px 100px 100px #1e293b;
+  }
+   
+  body::-webkit-scrollbar-thumb {
+    background-color: var(--clr-dark);
+    outline: 1px solid var(--clr-dark);
+    border-radius: 2px;
+}
     </style>
   </head>
   <body>

@@ -79,4 +79,4 @@ body::-webkit-scrollbar {
     background-color: var(--clr-dark);
     outline: 1px solid var(--clr-dark);
     border-radius: 2px;
-  }
+}
